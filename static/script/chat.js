@@ -1,5 +1,3 @@
-                                                // PROJECT (FLACK) WAS STARTED ON 3rd July, 2020, code written by "Shahzaib Saeed"
-
 document.addEventListener('DOMContentLoaded', () => {
   // Connect to websocket
   var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
