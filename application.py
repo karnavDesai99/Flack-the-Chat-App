@@ -1,5 +1,3 @@
-                                                            # PROJECT (FLACK) WAS STARTED ON 3rd July, 2020, code written by "Shahzaib Saeed"
-
 from time import localtime, strftime
 import json
 import requests
@@ -8,7 +6,7 @@ from flask_socketio import SocketIO, emit, send, join_room, leave_room
 
 # config the app
 app = Flask(__name__)
-app.config["SECRET_KEY"] = '22e4d35d374362b8f0975081711c4203'
+app.config["SECRET_KEY"] = 'XXXXXXXXXX'
 
 # initialize the Flask-SocketIO
 socketio = SocketIO(app)
